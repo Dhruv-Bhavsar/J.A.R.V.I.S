@@ -1,0 +1,106 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- VOLUME CONTROLS -->
+
+	 <category>
+        <pattern>INCREASE VOLUME</pattern>
+         <template>
+         <random>
+               <li>Done sir!</li>
+               <li>Right away sir!</li>
+               <li>volume is increased sir!</li>
+        </random>
+            <system>python main.py i 10</system>
+        </template>
+    </category>
+
+       <category>
+        <pattern>DECREASE VOLUME</pattern>
+         <template>
+         <random>
+               <li>Done sir!</li>
+               <li>Right away sir!</li>
+               <li>volume is decreased sir!</li>
+        </random>
+            <system>python main.py d 10</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INCREASE VOLUME BY *</pattern>
+         <template>
+         <random>
+               <li>Done sir!</li>
+               <li>Right away sir!</li>
+               <li>volume is increased sir!</li>
+        </random>
+            <system>python main.py i <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INCREASE VOLUME TO *</pattern>
+         <template>
+          <random>
+               <li>Done sir!</li>
+               <li>Right away sir!</li>
+               <li>volume is increased sir!</li>
+        </random>
+            <system>python main.py s <star/></system>
+        </template>
+    </category>
+
+     <category>
+        <pattern>DECREASE VOLUME BY *</pattern>
+         <template>
+          <random>
+               <li>Done sir!</li>
+               <li>Right away sir!</li>
+               <li>volume is decreased sir!</li>
+        </random>
+            <system>python main.py d <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DECREASE VOLUME TO *</pattern>
+         <template>
+          <random>
+               <li>Done sir!</li>
+               <li>Right away sir!</li>
+               <li>volume is decreased sir!</li>
+        </random>
+            <system>python main.py s <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SET VOLUME TO *</pattern>
+         <template>
+          <random>
+               <li>Done sir!</li>
+               
+        </random>
+            <system>python main.py s <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS * VOLUME</pattern>
+         <template>
+            <system>python main.py g</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SET BRIGHTNESS TO *</pattern>
+        <template>
+        <random>
+               <li>Done sir!</li>
+               
+        </random>
+            <system>python launching_softwares.py s <star/></system>
+        </template>
+    </category>
+
+</aiml>

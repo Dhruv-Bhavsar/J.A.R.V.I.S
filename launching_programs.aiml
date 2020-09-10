@@ -1,0 +1,565 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	
+ <!-- Launching programs -->
+
+    <category>
+        <pattern>OPEN SUBLIME TEXT</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py sublime</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN SUBLIME TEXT</pattern>
+         <template>
+            <srai>OPEN SUBLIME TEXT</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN PYCHARM</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py pycharm</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN PYCHARM</pattern>
+         <template>
+            <srai>OPEN PYCHARM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN ECLIPSE</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py eclipse</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN ECLIPSE</pattern>
+         <template>
+            <srai>OPEN ECLIPSE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CODEBLOCKS</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py codeblocks</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN CODEBLOCKS</pattern>
+         <template>
+            <srai>OPEN CODEBLOCKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN BRACKETS</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py brackets</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN BRACKETS</pattern>
+         <template>
+            <srai>OPEN BRACKETS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN VS CODE</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py vs</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN VS CODE</pattern>
+         <template>
+            <srai>OPEN VS CODE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN NETBEANS</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py netbeans</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN NETBEANS</pattern>
+         <template>
+            <srai>OPEN NETBEANS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN ANDROID STUDIO</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py android</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN ANDROID STUDIO</pattern>
+         <template>
+            <srai>OPEN ANDROID STUDIO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE ECLIPSE</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeEclipse</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE ECLIPSE</pattern>
+         <template>
+            <srai>CLOSE ECLIPSE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE PYCHARM</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closePycharm</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE PYCHARM</pattern>
+         <template>
+            <srai>CLOSE PYCHARM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE BRACKETS</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>Working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeBrackets</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE BRACKETS</pattern>
+         <template>
+            <srai>CLOSE BRACKETS</srai>
+        </template>
+    </category>
+
+<category>
+        <pattern>CLOSE CODEBLOCKS</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeCodeblocks</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE CODEBLOCKS</pattern>
+         <template>
+            <srai>CLOSE CODEBLOCKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE VS CODE</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>Working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeCode</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE VS CODE</pattern>
+         <template>
+            <srai>CLOSE VS CODE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE ATOM</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeAtom</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE ATOM</pattern>
+         <template>
+            <srai>CLOSE ATOM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE ANDROID STUDIO</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>Working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeAndroid</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE ANDROID STUDIO</pattern>
+         <template>
+            <srai>CLOSE ANDROID STUDIO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE SUBLIME</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeSublime</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE SUBLIME</pattern>
+         <template>
+            <srai>CLOSE SUBLIME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLOSE NETBEANS</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>Working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py closeNetbeans</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLOSE NETBEANS</pattern>
+         <template>
+            <srai>CLOSE NETBEANS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TAKE ME HOME</pattern>
+         <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py home</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TAKE ME TO *</pattern>
+         <template>
+            <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>nautilus <star/></system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CALCULATOR</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system>python launching_softwares.py calc </system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN CALCULATOR *</pattern>
+        <template>
+             <srai>OPEN CALCULATOR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CALCULATOR *</pattern>
+        <template>
+             <srai>OPEN CALCULATOR</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN CALCULATOR</pattern>
+        <template>
+             <srai>OPEN CALCULATOR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN VLC</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system> python launching_softwares.py vlc</system>
+        </template>
+        
+    </category>
+
+    <category>
+        <pattern>* OPEN VLC *</pattern>
+        <template>
+             <srai>OPEN VLC</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN VLC *</pattern>
+        <template>
+             <srai>OPEN VLC</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN VLC</pattern>
+        <template>
+             <srai>OPEN VLC</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN FIREFOX</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system> python launching_softwares.py firefox</system>
+        </template>
+        
+    </category>
+
+    <category>
+        <pattern>* OPEN FIREFOX *</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN FIREFOX *</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN FIREFOX</pattern>
+        <template>
+             <srai>OPEN FIREFOX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CHROME</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system> python launching_softwares.py chrome</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN CHROME *</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN CHROME *</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN CHROME</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN BROWSER</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OPEN BROWSER *</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPEN BROWSER *</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>* OPEN BROWSER</pattern>
+        <template>
+             <srai>OPEN CHROME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOGLE *</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system> start chrome "http://www.google.com/search?q=<star/>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>YOUTUBE *</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system> start chrome "https://www.youtube.com/results?search_query=<star/>"</system>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOOGLE MAPS *</pattern>
+        <template>
+             <random>
+               <li>Sure sir!</li>
+               <li>Right away sir!</li>
+               <li>working on it sir!</li>
+            </random>
+            <system> start chrome "https://www.google.co.in/maps/search/<star/>"</system>
+        </template>
+    </category>
+
+     <category>
+        <pattern>SEARCH FOR * ON GOOGLE MAPS</pattern>
+        <template>
+             <srai>GOOGLE MAPS <star/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEARCH FOR * IN GOOGLE MAPS</pattern>
+        <template>
+             <srai>GOOGLE MAPS <star/></srai>
+        </template>
+    </category>
+
+
+</aiml>
